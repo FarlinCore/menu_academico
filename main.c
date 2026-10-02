@@ -17,6 +17,7 @@ int main(void) {
         if (scanf("%d", &opcion) != 1)
         {
             printf("Error: Digite un numero valido.\n");
+            limpiarBuffer();
             continue;
         }
 

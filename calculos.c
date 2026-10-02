@@ -24,7 +24,7 @@ void calcularPromedio()
 
     printf("--Calculo de promedio--\n");
     printf("Introduce la cantidad de valores: ");
-    while ((scanf("%u", &cantidad) != 1) || cantidad > 0 ) {
+    while ((scanf("%u", &cantidad) != 1) || cantidad == 0 ) {
         printf("Error: Digite un numero valido y positivo.\n");
         limpiarBuffer();
     }
